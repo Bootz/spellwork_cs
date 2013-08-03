@@ -24,7 +24,6 @@ namespace SpellWork
                     DBC.SpellEffects[value.Value.EffectSpellId].Add((int)value.Value.EffectIndex, value.Value);
                 }
             }
-            DBC.SpellDifficulty     = DBCReader.ReadDBC<SpellDifficultyEntry>(null);
 
             DBC.SpellTargetRestrictions     = DBCReader.ReadDBC<SpellTargetRestrictionsEntry>(null);
             DBC.SpellAuraRestrictions       = DBCReader.ReadDBC<SpellAuraRestrictionsEntry>(null);
@@ -42,8 +41,10 @@ namespace SpellWork
             DBC.SkillLineAbility            = DBCReader.ReadDBC<SkillLineAbilityEntry>(null);
             DBC.SpellRadius                 = DBCReader.ReadDBC<SpellRadiusEntry>(null);
             DBC.SpellCastTimes              = DBCReader.ReadDBC<SpellCastTimesEntry>(null);
-
+            DBC.SpellDifficulty             = DBCReader.ReadDBC<SpellDifficultyEntry>(null);
             DBC.OverrideSpellData           = DBCReader.ReadDBC<OverrideSpellDataEntry>(null);
+            
+            DBC.CurrencyTypes               = DBCReader.ReadDBC<CurrencyTypesEntry>(DBC.CurrencyTypesStrings);
             DBC.SkillLine                   = DBCReader.ReadDBC<SkillLineEntry>(DBC.SkillLineStrings);
             DBC.SpellRange                  = DBCReader.ReadDBC<SpellRangeEntry>(DBC.SpellRangeStrings);
             DBC.ScreenEffect                = DBCReader.ReadDBC<ScreenEffectEntry>(DBC.ScreenEffectStrings);

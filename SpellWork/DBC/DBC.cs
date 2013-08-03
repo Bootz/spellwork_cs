@@ -10,7 +10,8 @@ namespace SpellWork
         public const int MAX_DBC_LOCALE                 = 16;
         public const int MAX_EFFECT_INDEX               = 3;
         public const int SPELL_ENTRY_FOR_DETECT_LOCALE  = 1;
-
+        
+        public static Dictionary<uint, CurrencyTypesEntry>          CurrencyTypes;
         public static Dictionary<uint, SpellEntry>                  Spell;
         public static Dictionary<uint, SpellEffectEntry>            SpellEffect;
         public static Dictionary<uint, SpellTargetRestrictionsEntry> SpellTargetRestrictions;
@@ -34,7 +35,8 @@ namespace SpellWork
         public static Dictionary<uint, SkillLineEntry>              SkillLine;
         public static Dictionary<uint, ScreenEffectEntry>           ScreenEffect;
         public static Dictionary<uint, OverrideSpellDataEntry>      OverrideSpellData;
-
+        
+        public static Dictionary<uint, string> CurrencyTypesStrings    = new Dictionary<uint, string>();
         public static Dictionary<uint, string> SpellStrings            = new Dictionary<uint, string>();
         public static Dictionary<uint, string> SkillLineStrings        = new Dictionary<uint, string>();
         public static Dictionary<uint, string> SpellRangeStrings       = new Dictionary<uint, string>();

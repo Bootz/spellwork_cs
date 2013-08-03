@@ -249,7 +249,7 @@ namespace SpellWork
         SPELL_EFFECT_163                                    = 163,
         SPELL_EFFECT_REMOVE_AURA                            = 164,
         SPELL_EFFECT_DAMAGE_PCT_SELF                        = 165,
-        SPELL_EFFECT_166                                    = 166,
+        SPELL_EFFECT_MOD_CURRENCY                           = 166,
         SPELL_EFFECT_167                                    = 167,
         SPELL_EFFECT_ALLOW_CONTROL_PET                      = 168,
         SPELL_EFFECT_REMOVE_ITEM                            = 169,
