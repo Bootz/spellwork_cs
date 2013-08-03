@@ -250,11 +250,11 @@ namespace SpellWork
         SPELL_EFFECT_REMOVE_AURA                            = 164,
         SPELL_EFFECT_DAMAGE_PCT_SELF                        = 165,
         SPELL_EFFECT_MOD_CURRENCY                           = 166,
-        SPELL_EFFECT_167                                    = 167,
+        SPELL_EFFECT_UPDATE_PHASE_SHIFT                     = 167,
         SPELL_EFFECT_ALLOW_CONTROL_PET                      = 168,
         SPELL_EFFECT_REMOVE_ITEM                            = 169,
-        SPELL_EFFECT_170                                    = 170,
-        SPELL_EFFECT_171                                    = 171,  // Summons gameobject
+        SPELL_EFFECT_UPDATE_ZONE_AURAS                      = 170,
+        SPELL_EFFECT_SUMMON_OBJECT_UNK                      = 171,  // Summons gameobject
         SPELL_EFFECT_RESURRECT_WITH_AURA                    = 172,  // Aoe resurrection
         SPELL_EFFECT_BUY_GUILD_TAB                          = 173,  // Guild tab unlocked (guild perk)
         SPELL_EFFECT_APPLY_AURA_2                           = 174,
