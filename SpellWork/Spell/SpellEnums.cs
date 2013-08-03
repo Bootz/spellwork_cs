@@ -589,9 +589,9 @@ namespace SpellWork
         SPELL_AURA_MOD_MELEE_ATTACK_SPEED                    = 319,    // (melee?) attack speed
         SPELL_AURA_MOD_RANGED_ATTACK_SPEED                   = 320,    // NYI
         SPELL_AURA_321                                       = 321,
-        SPELL_AURA_INTERFERE_TARGETTING                      = 322,    // NYI SPELL_AURA_INTERFERE_TARGETTING 6 spells
+        SPELL_AURA_INTERFERE_TARGETING                       = 322,    // NYI SPELL_AURA_INTERFERE_TARGETING 6 spells
         SPELL_AURA_323                                       = 323,
-        SPELL_AURA_324                                       = 324,    // 2 test spells
+        SPELL_AURA_MOD_EXPERTISE2                            = 324,    // 2 test spells
         SPELL_AURA_325                                       = 325,
         SPELL_AURA_326                                       = 326,    // 24 spells in phase auras
         SPELL_AURA_327                                       = 327,
@@ -608,7 +608,7 @@ namespace SpellWork
         SPELL_AURA_REDUCE_DURABILITY_LOSS                    = 338,    // Reduces durability loss on death
         SPELL_AURA_MOD_SKILLCHANCE                           = 339,    // guild perk aura, 1 spell SPELL_AURA_MOD_SKILLCHANCE
         SPELL_AURA_MOD_RESSURECTED_HEALTH_PCT                = 340,    // guild perk aura, 1 spell SPELL_AURA_MOD_RESSURECTED_HEALTH_PCT, Increases health gained when resurrected by a guild member by (GetBasePoints())%.  Does not function in combat or while in a Battleground or Arena.
-        SPELL_AURA_341                                       = 341,    // 2 spells modifies cooldown of hearthstone and cast time of archaeology mining
+        SPELL_AURA_MOD_ITEM_COOLDOWN                         = 341,    // 2 spells modifies cooldown of hearthstone and cast time of archaeology mining
         SPELL_AURA_MOD_TIME_BETWEEN_ATTACKS                  = 342,    // Increases the time between attacks of the target
         SPELL_AURA_MOD_ALL_DAMAGE_FROM_CASTER                = 343,    // 2 spells SPELL_AURA_MOD_ALL_DAMAGE_FROM_CASTER
         SPELL_AURA_MOD_AUTOATTACK_DAMAGE                     = 344,    // Increases damage done (white damage)
@@ -618,8 +618,8 @@ namespace SpellWork
         SPELL_AURA_MOD_MONEY_TO_GUILD_BANK                   = 348,    // guild perk, 2 spells SPELL_AURA_MOD_MONEY_TO_GUILD_BANK, Each time you loot money from an enemy, an extra (Getbasepoints())% money is generated and deposited directly into your guild bank.
         SPELL_AURA_MOD_CURRENCY_GAIN                         = 349,    // 16 spells SPELL_AURA_MOD_CURRENCY_GAIN, Increases (GetMiscValue()) gained by (Getbasepoints())% miscvalue 392 = honor points, its mostly used for honor points
         SPELL_AURA_MOD_GATHERING_ITEMS_GAINED_PERCENT        = 350,    // Increases the quantity of materials gained from Mining, Skinning, Herbalism, and Disenchanting. 15%
-        SPELL_AURA_351                                       = 351,    // 8 spells archaeology-related - (i think it increases rating of rare items or something like that)
-        SPELL_AURA_352                                       = 352,    // 1 spell enables worgen<>human form switches
+        SPELL_AURA_MOD_ARCHAEOLOGY_ITEM_FINDS                = 351,    // 8 spells archaeology-related - (i think it increases rating of rare items or something like that)
+        SPELL_AURA_ENABLE_SWITCH_RACES                       = 352,    // 1 spell enables worgen<>human form switches
         SPELL_AURA_MOD_CAMOUFLAGE                            = 353,    // 3 spells SPELL_AURA_MOD_CAMOUFLAGE
 
         TOTAL_AURAS                                          = 354

@@ -452,6 +452,16 @@ namespace SpellWork
                 case AuraType.SPELL_AURA_ADD_PCT_MODIFIER:
                     rtb.Append((SpellModOp)misc);
                     break;
+                case AuraType.SPELL_AURA_PROC_ON_POWER_AMOUNT:
+                    rtb.Append((Powers)misc);
+                    break;
+                case AuraType.SPELL_AURA_MOD_CURRENCY_GAIN:
+                    CurrencyTypesEntry entry;
+                    if (DBC.CurrencyTypes.TryGetValue((uint)effect.EffectMiscValue, out entry))
+                        rtb.Append(entry.Name);
+                    else
+                        rtb.Append("Not Found in CurrencyTypes.dbc");
+                    break;                    
                 // todo: more case
                 default:
                     rtb.Append(misc);
